@@ -9,8 +9,8 @@
   }
   
   body {
-    background-color: #afafaf; /* Light grey that looks clean on light & dark */
-    color: #1c1c1c; /* Dark text for readability */
+    background-color: #8f8d8d; /* Light grey that looks clean on light & dark */
+    color: #000000; /* Dark text for readability */
   }
   
   html {
@@ -25,12 +25,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #e0e0e0; /* soft light grey navbar */
+    background-color: #858383; /* soft light grey navbar */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
   
   .navbar .logo img {
-    width: 30px;
+    width: 60px;
   }
   
   .nav-links {
@@ -59,9 +59,9 @@
   /* =================== */
   .topnav {
     overflow: hidden;
-    background-color: #e0e0e0;
+    background-color: #555454;
     color: #1c1c1c;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 1px solid #555454;
   }
   
   .topnav img {
@@ -113,7 +113,7 @@
   .slider {
     position: relative;
     width: 100%;
-    height: 180px;
+    height: 650px;
     overflow: hidden;
     padding: 0;
   }
@@ -289,7 +289,7 @@
   footer {
     text-align: center;
     padding: 20px;
-    background-color: #d9d9d9; /* Light footer */
+    background-color: #858282; /* Light footer */
     color: #1c1c1c;
     border-top: 1px solid #dee2e6;
   }
@@ -370,5 +370,7 @@
       width: 100%;
     }
   }
-  /* =================== */  
+ 
+
+
   
