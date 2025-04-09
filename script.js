@@ -1,4 +1,3 @@
-
 // Get the video and main content elements
 const intro = document.getElementById('intro');
         const mainContent = document.getElementById('main-content');
@@ -64,4 +63,8 @@ document.querySelectorAll(".gallery .images img").forEach(img => {
 closeBtn.onclick = function() {
   modal.style.display = "none";
 }
-
+// navbar btn option
+function toggleNavbar() {
+  const nav = document.getElementById("myTopnav");
+  nav.classList.toggle("responsive");
+}
