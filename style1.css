@@ -137,7 +137,7 @@
   
   @media (max-width: 600px) {
     .slider {
-      height: 50vh; /* Smaller height on small screens */
+      height: 20vh; /* Smaller height on small screens */
     }
   
     .slide img {
