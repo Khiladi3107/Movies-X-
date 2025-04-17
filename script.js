@@ -63,6 +63,12 @@ document.querySelectorAll(".gallery .images img").forEach(img => {
 closeBtn.onclick = function() {
   modal.style.display = "none";
 }
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 // navbar btn option
 function toggleNavbar() {
   const nav = document.getElementById("myTopnav");
