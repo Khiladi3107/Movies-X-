@@ -310,6 +310,13 @@
     color: #1c1c1c;
     border-top: 1px solid #dee2e6;
   }
+   .name{
+    text-align: end;
+    font-size: 11px;
+    bottom: 0;
+    margin-top: 12px;
+    color: #000000;
+  }
   
   /* =================== */
   /* INTRO VIDEO SECTION */
