@@ -9,13 +9,12 @@
   }
   
   body {
-    background-color: rgb(236, 235, 235); /*Light grey that looks clean on light & dark */
-    /* background-color: rgb(184, 182, 182); */
+    background-color: rgb(236, 235, 235); /* Light grey that looks clean on light & dark */
     color: #000000; /* Dark text for readability */
   }
   
   html {
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;
   }
   
   /* =================== */
@@ -72,7 +71,7 @@
   }
   
   .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #212529;
     text-align: center;
@@ -83,7 +82,7 @@
   
   .topnav a:hover {
     background-color: #f1f1f1;
-    color: #007bff;
+  color: #007bff;
   }
   
   .topnav .icon {
@@ -102,8 +101,8 @@
     }
     .topnav.responsive .icon {
       position: absolute;
-      right: 10px;
-      top: 60px;
+      right: 0;
+      top: 0;
       background: whitesmoke;
     }
     .topnav.responsive a {
@@ -137,7 +136,7 @@
   .slide img {
     width: 100%;
     aspect-ratio: 16 / 9;
-    object-fit: fill;
+    object-fit: contain;
   }
   
   @media (max-width: 600px) {
@@ -306,16 +305,14 @@
   /* =================== */
   footer {
     text-align: center;
-    height: 70px;
     padding: 20px;
     background-color: #858282; /* Light footer */
     color: #1c1c1c;
     border-top: 1px solid #dee2e6;
   }
-
-  .name{
+   .name{
     text-align: end;
-    font-size: 9px;
+    font-size: 11px;
     bottom: 0;
     margin-top: 12px;
     color: #000000;
@@ -395,7 +392,7 @@
   @media only screen and (max-width: 600px) {
     .modal-content {
       width: 100%;
-      margin-top: 200px;
+    margin-top: 200px;
     }
   }
  /* =================== */
@@ -405,7 +402,7 @@
     flex-wrap: wrap;
     align-items: center;
     /* justify-content: space-between; */
-    background-color: #f7f7f7;
+    background-color: #afafaf;
     padding: 10px;
   }
   
@@ -425,7 +422,7 @@
   /* When screen is <= 600px, collapse menu */
   @media screen and (max-width: 600px) {
     .topnav a:not(.icon) {
-      display:none;
+      display: none;
       width: 100%;
       text-align: left;
       background-color: #ddd;
@@ -437,11 +434,7 @@
     }
   
     .topnav .icon {
-      display: inline-block;
-      /* text-align: right;
-      right: 0; */
-      margin-left: 319px;
-      margin-top: -50px;
+      display: block;
     }
   }
   
@@ -494,12 +487,10 @@
 }
 
 .dark-theme #skipBtn {
-  background-color: rgb(230, 6, 6);
+  background-color: rgba(255, 255, 255, 0.2);
 }
-/* .dark-theme #skipBtn :hover{
+.dark-theme #skipBtn :hover{
   background-color: rgb(209, 5, 5);
-} */
-
-/* review */
+}
 
     
