@@ -9,7 +9,7 @@
   }
   
   body {
-    background-color: #8f8d8d; /* Light grey that looks clean on light & dark */
+    background-color: rgb(236, 235, 235); /* Light grey that looks clean on light & dark */
     color: #000000; /* Dark text for readability */
   }
   
@@ -25,7 +25,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #858383; /* soft light grey navbar */
+    background-color: whitesmoke; /* soft light grey navbar */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
   
