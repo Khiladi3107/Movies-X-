@@ -264,18 +264,6 @@
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
     cursor: pointer;
   }
-
-
-/*=========================*/
-@media screen and (max-width: 600px) {
-    .topnav .icon {
-        display: inline-block;
-        margin-left: 319px;
-        margin-top: 0px;
-    }
-}
-/*=========================*/
-  
   /* =================== */
   /* CONTACT FORM */
   /* =================== */
