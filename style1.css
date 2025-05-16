@@ -394,6 +394,25 @@
       width: 100%;
     margin-top: 200px;
     }
+       .gallery .images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      flex-direction: space-evenly;
+      flex-wrap: wrap;
+      align-content: center;
+    }
+    
+    .gallery .images img {
+      width: 230%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
   }
  /* =================== */
      
